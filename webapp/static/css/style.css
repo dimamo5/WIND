@@ -1,0 +1,47 @@
+#header {
+    color: #1C1C83;
+}
+
+#header div.image {
+   content:url('../img/logo.png');
+   margin-left: 15px;
+   margin-top: 15px;
+}
+
+#inputLoginForm{
+    margin-top: 30px;
+}
+
+p{
+    color: #1C1C83;
+}
+
+.form-control{
+    border-style: solid;
+    border-color: #BF0000;
+    border-width: 2px;
+    border-radius: 0px;
+    margin-top: 15px;
+}
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #1C1C83;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #1C1C83;
+   opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #1C1C83;
+   opacity:  1;
+}
+.form-control::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #1C1C83;
+}
+
+#btn-login, #btn-Register{
+    margin-top: 25px;
+    border-radius: 0px;    
+    background-color:#BF0000;
+    border-color: #BF0000;
+
+}

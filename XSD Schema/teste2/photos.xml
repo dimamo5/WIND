@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <collection id="co12">
+        <photo id="ph123">
+            <date>2016-06-01</date>
+            <photographer>Cristina Ribeiro</photographer>
+            <caption>Porto, 2016-06-01, Performance by Gambozinos at the Book Fair</caption>
+            <keywords>children, performance, crowd</keywords>
+            <tags>Palácio de Cristal, Porto, Feira do Livro, Book Fair, music</tags>
+            <category>Performance</category>
+            <text lang="EN">Gambozinos have performed at the Porto Book Fair, 
+                in an event organized to celebrate the launch of several books for children.</text>
+            <text lang="PT">Os Gambozinos participaram num evento organizado 
+                para comemorar o lançamento de vários livros para crianças realizado a Feira do Livro do Porto.</text>
+            <camera>
+                <maker>Canon</maker>
+                <model>Canon DIGITAL IXUS 40</model>
+            </camera>
+            <image>
+                <width>2272</width>
+                <height>1704</height>
+                <dateOriginal>2016-06-01</dateOriginal>
+                <dateDigitized>2016-06-01</dateDigitized>
+            </image>
+            <exposure>
+                <aperture>f2.8</aperture>
+                <flash>Off</flash>
+                <metering>Pattern</metering>
+            </exposure>
+            <file>
+                <name>IMG_6416.jpg</name>
+                <size>2.0 Mb</size>
+                <dateImported>2016-06-04</dateImported>
+            </file>
+            <gps standard="NMEA">$GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47</gps>
+        </photo>
+        <photo id="ph124">
+            <date>2016-07-01</date>
+            <photographer>Cristina Ribeiro</photographer>
+            <caption>Porto, 2016-06-01, Performance by Gambozinos at the Book Fair</caption>
+            <keywords>children, performance, crowd</keywords>
+            <tags>Palácio de Cristal, Porto, Feira do Livro, Book Fair, music</tags>
+            <category>Performance</category>
+            <text lang="EN">Another Gambozinos have performed at the Porto Book Fair, 
+                in an event organized to celebrate the launch of several books for children.</text>
+            <text lang="PT">Outra vez os Gambozinos participaram num evento organizado 
+                para comemorar o lançamento de vários livros para crianças realizado a Feira do Livro do Porto.</text>
+            <camera>
+                <maker>Canon</maker>
+                <model>Canon DIGITAL IXUS 40</model>
+            </camera>
+            <image>
+                <width>2272</width>
+                <height>1704</height>
+                <dateOriginal>2016-07-01</dateOriginal>
+                <dateDigitized>2016-07-01</dateDigitized>
+            </image>
+            <exposure>
+                <aperture>f2.8</aperture>
+                <flash>Off</flash>
+                <metering>Pattern</metering>
+            </exposure>
+            <file>
+                <name>IMG_6416.jpg</name>
+                <size>2.0 Mb</size>
+                <dateImported>2016-07-04</dateImported>
+            </file>
+            <gps standard="NMEA">$GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47</gps>
+        </photo>
+        <photo id="ph125">
+            <date>2016-08-01</date>
+            <photographer>João Lopes</photographer>
+            <caption>Porto, 2016-08-01, Performance by Gambozinos at the Book Fair</caption>
+            <keywords>children, performance, crowd</keywords>
+            <tags>Palácio de Cristal, Porto, Feira do Livro, Book Fair, music</tags>
+            <category>Performance</category>
+            <text lang="EN">Another Gambozinos have performed at the Porto Book Fair, 
+                in an event organized to celebrate the launch of several books for children.</text>
+            <text lang="PT">Outra vez os Gambozinos participaram num evento organizado 
+                para comemorar o lançamento de vários livros para crianças realizado a Feira do Livro do Porto.</text>
+            <camera>
+                <maker>Canon</maker>
+                <model>Canon DIGITAL IXUS 40</model>
+            </camera>
+            <image>
+                <width>2272</width>
+                <height>1704</height>
+                <dateOriginal>2016-08-01</dateOriginal>
+                <dateDigitized>2016-08-01</dateDigitized>
+            </image>
+            <exposure>
+                <aperture>f2.8</aperture>
+                <flash>Off</flash>
+                <metering>Pattern</metering>
+            </exposure>
+            <file>
+                <name>IMG_6416.jpg</name>
+                <size>2.0 Mb</size>
+                <dateImported>2016-08-04</dateImported>
+            </file>
+            <gps standard="NMEA">$GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47</gps>
+        </photo>
+    </collection>
+</archive>

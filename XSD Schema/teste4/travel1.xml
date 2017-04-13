@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agency>
+    <destinations>
+        <destination id="bel">Belize</destination>
+        <destination id="mad">Madeira</destination>
+        <destination id="per">Peru</destination>
+    </destinations>
+    <traveler id="coelho">
+        <passport>P-123456-08</passport>
+        <name>Pedro Coelho</name>
+        <born>1964-10-05</born>
+        <trip>
+            <start>2017-01-01</start>
+            <end>2017-01-15</end>
+            <itinerary destination="bel">
+                Executive class trip to Belize via Frankfurt.
+            </itinerary>
+            <plane date="2017-01-01">
+                Ask for vegan meal.
+                <airport>Barajas</airport>
+                Call attendant before next connection.
+            </plane>
+            <plane date="2017-01-01">
+                Confirmed. Be at the airport 3 hours in advance.
+                <airport>Frankfurt</airport>
+            </plane>
+            <hotel date="2017-01-01">Beach Resort</hotel>
+            <hotel date="2017-01-08">Mountain Inn</hotel>
+        </trip>
+    </traveler>
+    
+    <traveler id="moura">
+        <passport>P-123456-08</passport>
+        <name>Diogo Moura</name>
+        <born>1964-10-05</born>
+        <trip>
+            <start>2017-04-01</start>
+            <end>2017-05-15</end>
+            <itinerary destination="per">
+                Executive class trip to peru via lisbon.
+            </itinerary>
+            <plane date="2017-04-01">
+                Ask for vegan meal.
+                <airport>Lisbon</airport>
+                Call attendant before next connection.
+            </plane>
+            <plane date="2017-05-01">
+                Confirmed. Be at the airport 3 hours in advance.
+                <airport>Peru</airport>
+            </plane>
+            <plane date="2017-05-10">
+                Regresso
+                <airport>Peru</airport>
+            </plane>
+            <hotel date="2017-04-01">Beach Resort</hotel>
+            <hotel date="2017-05-08">Mountain Inn</hotel>
+        </trip>
+    </traveler>
+    
+    <traveler id="leite">
+        <passport>P-456789-09</passport>
+        <born>1970-12-25</born>
+        <name>Fernanda Leite</name>
+    </traveler>
+</agency>

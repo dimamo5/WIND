@@ -1,23 +1,35 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+    <navbar v-if="auth" v-on:loggedOut="loggedOut"></navbar>
+    <sidebar v-if="auth" ></sidebar>
+    <router-view v-if="auth"></router-view>
+
+    <login v-on:loggedIn="loggedIn" v-if="!auth"></login>
   </div>
 </template>
 
 <script>
+
+import Login from './components/Login'
+import Register from './components/Register'
+
 export default {
-  name: 'app'
+  name: 'app',
+  data:function(){
+    return {auth:this.$root.auth}
+  },
+  components: {
+    Login,
+    Register
+  },
+  methods:{
+    loggedIn:function(){
+      this.auth=true;
+    },
+    loggedOut:function(){
+      this.auth=false;
+    }
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

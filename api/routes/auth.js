@@ -63,7 +63,7 @@ router.post('/register', function (req, res) {
 function jwtverify(req, res, next) {
 
   // check header or url parameters or post parameters for token
-    var token = req.body.token || req.query.token || req.headers['Authorization'];
+    var token = req.body.token || req.query.token || req.headers['authorization'];
 
   // decode token
   if (token) {

@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "prestart": "start mongod",
     "start": "node ./bin/www",
+    "poststart": "start mongo admin --eval \"db.shutdownServer()\"",
     "test": "mocha --reporter spec --bail --check-leaks test/",
     "testRoutes": "mocha --reporter spec --bail --check-leaks test/routes",
     "testAPI": "mocha --reporter spec --bail --check-leaks test/api_requests"
@@ -13,10 +15,12 @@
     "debug": "~2.6.0",
     "express": "~4.14.1",
     "jsonwebtoken": "^7.3.0",
+    "libxmljs": "^0.18.4",
     "mongodb": "^2.2.25",
     "morgan": "~1.7.0",
     "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
     "chai": "^3.5.0",
